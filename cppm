@@ -103,3 +103,38 @@ int main()
 
   return 0;
 }
+
+5. Write a c program to swap two numbers with    using third variable.
+
+#include <stdio.h>
+int main(void)
+{
+// Variable declaration
+int a, b, temp;    
+printf("Enter two numbers a and b ");
+scanf("%d %d", &a, &b);
+// Swap logic
+temp = a;
+a = b;
+b = temp;
+printf("\n After swapping \na = %d\nb = %d\n", a, b);
+return 0;
+}
+
+6.C Program to Check Whether a Number is Even or Odd.
+7.C Program to Check Whether a Number is Positive or Negative
+8.C Program to Check Whether a Character is an Alphabet or not.
+9.C Program to Find the Largest Number Among Three Numbers.
+10.C Program to Make a Simple Calculator Using switch...case
+This program takes an arithmetic operator +, -, *, / and two operands from the
+user. Then, it performs the calculation on the two operands depending upon
+the operator entered by the user.
+11.C Program to find sum of 1 to N number.
+12.Write a c program to print factorial of a number.
+13.Write a c program to print sum of digits.
+14.C Program to Check Whether a Number is Palindrome or Not
+15.C Program to read and display elements from array.
+16.Program to search an element from an array of size 10.
+17.C Program to find Sum of All Array elements.
+18.C Program to find Sum of All even elements from 1 dim Array of size 10
+elements.
